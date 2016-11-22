@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
+    <LINK REL=STYLESHEET TYPE="text.css" HREF="URL">
     <meta charset="utf-8">
     <title>catalog</title>
   </head>
   <body>
  <header class="main-header">
 <div class="container">
+  <div class="logo-nerds">
+</div>
 <nav class="main-navigation">
   <ul>
     <li> <a href="#">студия</a> </li>
-    <li> <a href="#">информация</a> </li>
+    <li> <a href="#">клиенты</a> </li>
     <li> <a href="#">магазин</a> </li>
     <li> <a href="#">контакты</a> </li>
   </ul>
@@ -19,13 +22,14 @@
   <a class="login" href="#">корзина</a>
   </div>
   <span class="type-page">
-    <h1>Магзин готовых продуктов</h1>
+    <h1>Магзин готовых шаблонов</h1>
   </span>
+</div>
   <main class="container">
-  <div class="left-container">
-    <spam class="main-text-container">
+<form>
+    <span class="main-text-container">
     <p><b>Стоимость</b></p>
-    </spam>
+  </span>
     <div class="javascript">
       <p>от</p>
       <p>до</p>
@@ -33,30 +37,51 @@
     <section class="choose">
       <h2>сетка:</h2>
         <ul>
-          <li class="small-menu">Адаптивная</li>
-          <li class="small-menu">Фиксированная</li>
-          <li class="small-menu">Резиновая</li>
+          <li>
+           <input id="adaptive" type="radio">
+           <label for="adaptive">Адаптивная</label>
+          </li>
+          <li>
+           <input id="adaptive" type="radio">
+           <label for="adaptive">Фиксированная</label>
+          </li>
+          <li>
+           <input id="adaptive" type="radio">
+           <label for="adaptive">резиновая</label>
+          </li>
        </ul>
-  <spam class="main-text-container">
+  <span class="main-text-container">
        <h2>Особенности</h2>
-       </spam>
+     </span>
        <ul>
-         <li class="sqrt-menu">Слайдер</li>
-         <li class="sqrt-menu">Блок преимуществ</li>
-         <li class="sqrt-menu">Новости</li>
-         <li class="sqrt-menu">Галерея</li>
-         <li class="sqrt-menu">Корзина</li>
-<buttom class="show-buttom" type="buttom">Показать</buttom>
-  </div>
+        <li> <input id="adaptive" type="checkbox">
+<label for="adaptive">слайдер</label>
+       </li>
+       <li> <input id="adaptive" type="checkbox">
+       <label for="adaptive">Блок преимуществ</label>
+       </li>
+       <li> <input id="adaptive" type="checkbox">
+   <label for="adaptive">Новости</label>
+      </li>
+      <li> <input id="adaptive" type="checkbox">
+<label for="adaptive">Галерея</label>
+     </li>
+     <li> <input id="adaptive" type="checkbox">
+<label for="adaptive">Корзина</label>
+    </li>
+
+<button class="show-button" type="button">Показать</button>
+</form>
   <div class="right-container">
-    <spam class="main-text-container">
-    <p><b>Сортировать:</b></p>
-    </spam>
+    <span class="main-text-container">
+    <p><h3>Сортировать:</h3></p>
+  </span>
     <ul>
-      <li>По цене</li>
-      <li>По типу</li>
-      <li>По названию</li>
+      <li> <a href="#">По цене </a> </li>
+      <li> <a href="#">По типу </a> </li>
+      <li> <a href="#">По названию </a> </li>
     </ul>
+    <div class="makets">
     <div class="model-1">
     <img src="http://placehold.it/150x100" alt="Макет-2">.
   </div>
@@ -76,23 +101,27 @@
 <img src="http://placehold.it/150x100" alt="макет-7">
 </div>
   </div>
+  <ul>
+    <li> <a href="#">1</a> </li>
+    <li> <a href="#">2</a> </li>
+    <li> <a href="#">3</a> </li>
+      <li> <a href="#">Следующая</a> </li>
+  </ul>
 
 </main>
 </div>
 <footer class="main-footer">
- <div class="logos">
-  <img src="ss" alt="логотипы">
-</div>
+
 <section class="map">
     <img src="http://placehold.it/150x100" alt="карта">
 </section>
-<section class="footer-copyright">
+<section class="footer-socials">
  <ul>
    <li> <a href="#">vk</a> </li>
    <li> <a href="#">facebook</a> </li>
    <li> <a href="#">instagramm</a> </li>
  </ul>
-   <p><h2>Давайте дружить это выгодно!</h2></p>
+   <h2>Давайте дружить это выгодно!</h2>
      <p>скидка 10% для друзей из социальных сетей</p>
 </section>
 </footer>

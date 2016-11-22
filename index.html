@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
+      <LINK REL=STYLESHEET TYPE="text/css" HREF="URL">
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
   </head>
@@ -33,7 +34,42 @@
 </header>
 <main class="container">
   <div class="tagline">
-    <h1>Долго,дорого,скурпулёзно.</h1>
+    <div class="slider">
+      <input type="radio" id="btn-1" name="toggle" checked>
+      <input type="radio" id="btn-2" name="toggle">
+      <input type="radio" id="btn-3" name="toggle">
+      <div class="slider-controls">
+        <label for="btn-1"></label>
+        <label for="btn-2"></label>
+        <label for="btn-3"></label>
+      </div>
+      <div class="slides">
+        <div class="slide">
+          <div class="slide-text">
+            <div class="slide-title">Долго, дорого, скрупулезно</div>
+            <p>Математически выверенный дизайн<br>
+для вашего сайта или мобильного приложения.</p>
+            <a class="btn" href="#">Узнать больше</a>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide-text">
+            <div class="slide-title">Дорого, скрупулезно</div>
+            <p>Математически выверенный дизайн<br>
+для вашего сайта или мобильного приложения.</p>
+            <a class="btn" href="#">Узнать больше</a>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide-text">
+            <div class="slide-title">Скрупулезно</div>
+            <p>Математически выверенный дизайн<br>
+для вашего сайта или мобильного приложения.</p>
+            <a class="btn" href="#">Узнать больше</a>
+          </div>
+        </div>
+      </div>
+    </div>
 </div>
 <div class="text">
   <p>Математически выверенный дизайн для вашего сайта или приложения.</p>
@@ -42,19 +78,19 @@
   <section class="features-work's">
  <div class="feature-cite">
    <img src="ss" alt="компьютер">
-   <b>веб-сайты</b>
+   <h3>веб-сайты</h3>
    <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
    <buttom class="choose" type="buttom">заказать</buttom>
  </div>
  <div class="features-app's">
    <img src="ss" alt="телефон">
-   <b>Приложения</b>
+   <h3>Приложения</h3>
    <p>Покорите топ-10 приложений в Apptore и Google Play</p>
    <buttom class="choose" type="buttom">заказать</buttom>
  </div>
  <div class="feature-presentation's">
    <img src="ss" alt="доска с граффиком">
- <b>Презентации</b>
+ <h3>Презентации</h3>
  <p>Вы даже не подозреваете на сколько вы изумительны!</p>
  <buttom class="choose" type="buttom">заказать</buttom>
 </div>
@@ -62,30 +98,33 @@
  </section class="page">
 <div class="container">
 <section class="about-us">
-<b>Мы-маленькая,но гордая дизайн-студия из Краснодара.</b>
+<h3>Мы-маленькая,но гордая дизайн-студия из Краснодара.</h3>
 <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук,как роботы.</p>
 <ul> <h3> выполняем заказы на разработку:</h3>
   <li>Веб-сайтов любой сложности</li>
   <li>Мобильных приложений для IOS и Android</li>
   <li>Слайдшоу и видео для корпоративных презентаций</li>
+
 </ul>
 <div class="right-container">
    <img img src="http://placehold.it/150x100" alt="лого-нёрдс">
    <b>с 2004 года любим точность во всём:</b>
 <h2>146</h2>
    <p>уровень самоотдачи</p>
-   <h2>100</h2>
+   <span class="static">100<span>
    <p>соблюдение сроков</p>
-   <h2>50</h2>
+   <span class="static">100</span>
    <p>минимальная предоплата</p>
+   <span class="static">50</span>
 </div>
 </section>
 </div>
+<div class="logos">
+ <img src="http://placehold.it/150x100"alt="логотипы  спонсоров">
+</div>
 </main>
  <footer class="main-footer">
-  <div class="logos">
-   <img src="http://placehold.it/150x100"alt="логотипы">
-</div>
+
 <section class="map">
      <img src="http://placehold.it/150x100"alt="карта">
 </section>
@@ -95,7 +134,7 @@
     <li> <a href="#">facebook</a> </li>
     <li> <a href="#">instagramm</a> </li>
   </ul>
-    <p><h2>Давайте дружить это выгодно!<h2></p>
+  <h2>Давайте дружить это выгодно!<h2>
       <p>скидка 10% для друзей из социальных сетей</p>
 </section>
 </footer>
